@@ -1,0 +1,8 @@
+baseUrl: $PRIMARY_SITE_URL
+handle: default
+hasUrls: true
+language: nl-BE
+name: dkd
+primary: true
+siteGroup: a72ef1f9-47e8-4f22-90ae-e6cf20d67a83 # dkd
+sortOrder: 1
