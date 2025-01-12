@@ -1,0 +1,63 @@
+{# ========================================================================== #}
+{# :: Variables #}
+{# ========================================================================== #}
+
+
+{# ========================================================================== #}
+{# :: Component #}
+{# ========================================================================== #}
+{% if entry.homeCoronaText or entry.homeCoronaTitle %}
+	<div class="l-container:12/12 l-container--with-default-spacing">
+		<div class="c-corona">
+			<h3> {{ entry.homeCoronaTitle}}  </h3>
+			<p>
+				{{ entry.homeCoronaText }}
+			</p>
+		</div>
+	</div>
+{% endif %}
+
+<div class="l-section">
+	<div class="l-container:12/12 l-container--with-default-spacing">
+		<div class="l-grid l-grid--with-default-spacing">
+			<div class="l-grid__col:12/12 l-grid__col:7/12@at:viewport-7">
+				<h1 style="font-weight: bold">
+					DE KLEINE DEUGD
+				</h1>
+
+				<q>
+					{{ entry.homeIntroQuote }}
+				</q>
+
+				<p>
+					{{ entry.homeIntroText }}
+				</p>
+			</div>
+
+			<div class="l-grid__col:1/12@at:viewport-7">
+			</div>
+
+			<div class="l-grid__col:12/12 l-grid__col:4/12@at:viewport-7">
+			 	<div class="c-banner">
+					<h3>
+						Openingsuren
+					</h3>
+
+					<ul>
+						{% for openingshour in entry.homeIntroOpeninghours.all() %}
+
+							<li>
+								{{ openingshour.title}}
+							</li>
+
+						{% endfor %}
+					</ul>
+
+					<h4>
+						{{ entry.homeIntroOpeningshoursException }}
+					</h4>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

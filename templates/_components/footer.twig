@@ -1,0 +1,27 @@
+{# ========================================================================== #}
+{# :: Variables #}
+{# ========================================================================== #}
+{% set navItems = craft.entries.section("footerNavigation") ?? null %}
+
+{# ========================================================================== #}
+{# :: Component #}
+{# ========================================================================== #}
+<footer class="c-footer l-section">
+	<div class="c-footer__container l-container">
+		{% for navItem in navItems.all() %}
+			{% if loop.first %}
+				<ul class="c-nav__list">
+			{% endif %}
+
+			<li>
+				<a {{ navItem.commonLink.getLinkAttributes() }}>
+					{{ navItem.commonLink.getText() }}
+				</a>
+			</li>
+
+			{% if loop.last %}
+				</ul>
+			{% endif %}
+		{% endfor %}
+	</div>
+</footer>

@@ -1,0 +1,21 @@
+columnSuffix: null
+handle: homeEventsItems
+instructions: null
+name: 'Event items'
+searchable: false
+settings:
+  createButtonLabel: null
+  defaultIndexViewMode: cards
+  entryTypes:
+    - 1ec4fc65-9cc6-4f9d-bc47-1f0f7eb99c47 # Event item
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: 50
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: cards
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

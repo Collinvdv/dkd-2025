@@ -1,12 +1,53 @@
-dateModified: 1736512999
+dateModified: 1736517231
 email:
   fromEmail: collinvdv@gmail.com
   fromName: dkd
   transportType: craft\mail\transportadapters\Sendmail
+fs:
+  images:
+    hasUrls: true
+    name: Images
+    settings:
+      path: $base_url
+    type: craft\fs\Local
+    url: $base_url
 meta:
   __names__:
+    0a11eb12-5492-4382-bf22-bb303a5d51a0: 'Menu items' # Menu items
+    1ec4fc65-9cc6-4f9d-bc47-1f0f7eb99c47: 'Event item' # Event item
+    4d27564d-71da-4a1f-82de-e1eb87a676e7: 'Event items' # Event items
+    5b113664-7768-4f44-b99e-6fd4560bc8e8: 'Evenementen title' # Evenementen title
+    9bfdf2da-7c8d-47d4-a341-87326755fe8a: 'Corona title' # Corona title
+    9d04527e-1f9f-48c6-8b3e-910720fb9224: 'Intro quote' # Intro quote
+    9e0c4b2a-f2b5-4af3-8d52-505134910a56: 'Intro openinghours' # Intro openinghours
+    9e017ce0-d191-4dae-b665-91c958066b8c: 'Menu text' # Menu text
     41bbb680-9ece-40db-9dd6-9be9452ef0bc: dkd # dkd
+    67fc1874-b3bb-47cc-b963-f87ade348930: Image # Image
+    79ae81ba-d8b9-4900-8609-300008df7c00: 'Menu item' # Menu item
+    274f2d72-1530-46c3-9c1b-f23c006182f3: 'Intro openingshours exception' # Intro openingshours exception
+    0357e835-5ac9-4cbb-b0e9-7fb5c4363b12: 'Home corona text' # Home corona text
+    427f1cb2-32db-461f-95e3-ee2ad3799fae: Simple # Simple
+    599c42ed-9244-456b-96fb-80a4e5289d0f: 'Intro text' # Intro text
+    2104dbbe-d227-4514-a360-acb510eaa8c5: Sfeerbeelden # Sfeerbeelden
+    4022e28a-f960-496a-9122-b9028e7b71a2: 'Home page' # Home page
+    78593953-7eae-4392-adb2-f5f017cdeb78: 'Events text' # Events text
     a72ef1f9-47e8-4f22-90ae-e6cf20d67a83: dkd # dkd
+    a1926707-8693-4fb1-b2e3-eb86729d32af: 'Sfeerbeelden titel' # Sfeerbeelden titel
+    ac5cdc24-110b-48aa-bd44-d9df8a4610b3: images # images
+    b79a8a96-1372-47ef-a8ad-5d4edfddac60: 'Menu title' # Menu title
+    bb7a9de4-c19a-41bb-9798-4039fc73dc8b: Home # Home
+    cb8e33b0-fc4f-4bc4-962f-90f63547c3a1: Openinghours # Openinghours
+    f8097071-b43d-4db1-868b-11799910e0bf: Content # Content
+    fa96ef04-de26-4eaf-82db-302460849f80: Title # Title
+plugins:
+  ckeditor:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.0.0
+  field-manager:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
 system:
   edition: solo
   live: true

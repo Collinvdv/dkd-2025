@@ -1,0 +1,269 @@
+color: null
+fieldLayouts:
+  4a72361f-9398-4a55-b577-d3617fe502cf:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-01-10T13:27:27+00:00'
+            elementCondition: null
+            fieldUid: 9bfdf2da-7c8d-47d4-a341-87326755fe8a # Corona title
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 40303d2d-4cae-4e49-97f3-4562c068c293
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-01-10T13:27:27+00:00'
+            elementCondition: null
+            fieldUid: 0357e835-5ac9-4cbb-b0e9-7fb5c4363b12 # Home corona text
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 73923cc5-38cb-4135-b348-f0071a14944d
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-01-10T13:30:47+00:00'
+            elementCondition: null
+            type: craft\fieldlayoutelements\HorizontalRule
+            uid: b4bf3c87-6f54-4aa0-be49-d685ed7e2a26
+            userCondition: null
+          -
+            dateAdded: '2025-01-10T13:30:47+00:00'
+            elementCondition: null
+            fieldUid: 9d04527e-1f9f-48c6-8b3e-910720fb9224 # Intro quote
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 192ca95e-4c68-4bb2-b082-285ced4992b2
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-01-10T13:30:47+00:00'
+            elementCondition: null
+            fieldUid: 599c42ed-9244-456b-96fb-80a4e5289d0f # Intro text
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 64bca04a-78e7-47b3-b4e4-4756b2e6ce35
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-01-10T13:30:47+00:00'
+            elementCondition: null
+            fieldUid: 9e0c4b2a-f2b5-4af3-8d52-505134910a56 # Intro openinghours
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3f421a2e-fe18-4b9b-bb6e-2d949dfd443c
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-01-10T13:30:47+00:00'
+            elementCondition: null
+            fieldUid: 274f2d72-1530-46c3-9c1b-f23c006182f3 # Intro openingshours exception
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: aaf58178-eb6a-4c7c-b15a-2bbfe7e1a5e1
+            userCondition: null
+            warning: null
+            width: 100
+        name: Intro
+        uid: 64d03fc4-bad1-4561-919a-f59b1c3d7264
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-01-10T13:35:18+00:00'
+            elementCondition: null
+            fieldUid: a1926707-8693-4fb1-b2e3-eb86729d32af # Sfeerbeelden titel
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c05ee2f1-6601-41a1-be71-a22e32890459
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-01-10T13:42:46+00:00'
+            elementCondition: null
+            fieldUid: 2104dbbe-d227-4514-a360-acb510eaa8c5 # Sfeerbeelden
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3001e5a1-4d72-4931-90d9-6ce829166c27
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'Good vibes'
+        uid: 1c120d2c-5587-40c8-964d-0147f0ac8951
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-01-10T13:37:08+00:00'
+            elementCondition: null
+            fieldUid: b79a8a96-1372-47ef-a8ad-5d4edfddac60 # Menu title
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4f2110cb-02ad-4fd3-9cea-8db997913f41
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-01-10T13:37:08+00:00'
+            elementCondition: null
+            fieldUid: 9e017ce0-d191-4dae-b665-91c958066b8c # Menu text
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8577db4a-4ffd-4465-bccc-4d1ec1b37911
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-01-10T13:46:40+00:00'
+            elementCondition: null
+            fieldUid: 0a11eb12-5492-4382-bf22-bb303a5d51a0 # Menu items
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3faacfb1-ac8c-43f1-8892-9f8f2ccf134e
+            userCondition: null
+            warning: null
+            width: 100
+        name: Menu
+        uid: fb914419-20df-47e7-8242-2a9a8a7a691e
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-01-10T13:37:44+00:00'
+            elementCondition: null
+            fieldUid: 5b113664-7768-4f44-b99e-6fd4560bc8e8 # Evenementen title
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f0f75aa7-0e16-4a58-895c-8e240a81e4a8
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-01-10T13:37:08+00:00'
+            elementCondition: null
+            fieldUid: 78593953-7eae-4392-adb2-f5f017cdeb78 # Events text
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d7197452-4404-435a-ac19-d4380df386d3
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-01-10T13:53:51+00:00'
+            elementCondition: null
+            fieldUid: 4d27564d-71da-4a1f-82de-e1eb87a676e7 # Event items
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3aca30e5-82e4-4118-a5d7-a6531ea71abf
+            userCondition: null
+            warning: null
+            width: 100
+        name: Evenementen
+        uid: ff2c061a-d422-4d33-979e-5c427f1cb70c
+        userCondition: null
+handle: homePage
+hasTitleField: false
+icon: null
+name: 'Home page'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

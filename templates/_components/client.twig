@@ -1,0 +1,30 @@
+{# ========================================================================== #}
+{# Variables #}
+{# ========================================================================== #}
+{% set classes = classes ?? "" %}
+{% set title = image.title ?? "" %}
+
+{% set transform = {
+        mode: "fit",
+        width: 800,
+        height: 800,
+        quality: 100,
+        position: "center-center",
+    }
+%}
+{% set url = image.getUrl(transform) ?? "" %}
+
+{# ========================================================================== #}
+{# Component #}
+{# ========================================================================== #}
+{# Layout #}
+{{ classes }}
+
+{# Content #}
+<img
+	src="{{url}}"
+	srcset="{{ image.getUrl({ width: 800, height: 600 }) }} 800w,
+			{{ image.getUrl({ width: 600, height: 450 }) }} 600w"
+	alt="{{title}}"
+	title="{{title}}"
+>

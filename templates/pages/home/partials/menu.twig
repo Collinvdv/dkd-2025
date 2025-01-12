@@ -1,0 +1,49 @@
+{# ========================================================================== #}
+{# :: Variables #}
+{# ========================================================================== #}
+
+
+{# ========================================================================== #}
+{# :: Component #}
+{# ========================================================================== #}
+<section class="l-section" id="menu">
+	<div class="l-container:12/12 l-container--with-default-spacing">
+		<div class="l-section__header l-section__header--center">
+			<div class="l-container:9/12">
+				<h2>
+					{{ entry.homeMenuTitle }}
+				</h2>
+
+				<p>
+					{{ entry.homeMenuText }}
+				</p>
+			</div>
+		</div>
+
+		<div class="l-section__content">
+			{% for item in entry.homeMenuItems.all() %}
+				<div class="l-grid l-grid--with-default-spacing l-grid--align-items:center l-grid--with-row-spacing:30@at:viewport-7">
+					{% if loop.index is even %}
+						{% include "_components/split-5-7-content-image" with {
+							title: item.mxTitle,
+							content: item.mxContent,
+							picture:  item.mxImage.one().getUrl() ?? null
+						} %}
+					{% else %}
+						{% include "_components/split-7-5-image-content" with {
+							title: item.mxTitle,
+							content: item.mxContent,
+							picture:  item.mxImage.one().getUrl() ?? null
+						} %}
+					{% endif %}
+				</div>
+			{% endfor %}
+		</div>
+
+		<div class="l-section__footer l-section__footer--center">
+			{# <a class="c-button" href="{{ entry.homeMenuDownloadAsset.one().getUrl() }}" target="_blank">
+				{{ entry.homeMenuDownloadText }}
+			</a> #}
+		</div>
+	</a>
+</section>

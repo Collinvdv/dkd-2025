@@ -1,0 +1,45 @@
+{# ========================================================================== #}
+{# Variables #}
+{# ========================================================================== #}
+{% set classes = classes ?? "" %}
+{% set title = data.mxSectionTitle ?? NULL %}
+{% set description = data.mxSectionDescription ?? NULL %}
+{% set background = data.commonHeaderImage.one() ?? NULL %}
+{% set author = data.testimonialAuthor ?? NULL %}
+{% set logo = data.testimonialLogo.one() ?? NULL %}
+
+{% set transform = {
+        mode: "fit",
+        width: 800,
+        height: 800,
+        quality: 100,
+        position: "center-center",
+    }
+%}
+
+{# ========================================================================== #}
+{# Component #}
+{# ========================================================================== #}
+{# Layout #}
+{{ classes }}
+
+{# Content #}
+{{ title }}
+{{ description }}
+{{ author }}
+
+<img
+	src="{{ background.getUrl(transform) }}"
+	srcset="{{ background.getUrl({ width: 800, height: 600 }) }} 800w,
+			{{ background.getUrl({ width: 600, height: 450 }) }} 600w"
+	alt="{{ background.title }}"
+	title="{{ background.title }}"
+>
+
+<img
+	src="{{ logo.getUrl(transform) }}"
+	srcset="{{ logo.getUrl({ width: 800, height: 600 }) }} 800w,
+			{{ logo.getUrl({ width: 600, height: 450 }) }} 600w"
+	alt="{{ logo.title }}"
+	title="{{ logo.title }}"
+>

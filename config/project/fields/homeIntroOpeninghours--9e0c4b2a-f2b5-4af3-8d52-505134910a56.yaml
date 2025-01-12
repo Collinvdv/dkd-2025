@@ -1,0 +1,21 @@
+columnSuffix: null
+handle: homeIntroOpeninghours
+instructions: null
+name: 'Intro openinghours'
+searchable: false
+settings:
+  createButtonLabel: null
+  defaultIndexViewMode: cards
+  entryTypes:
+    - cb8e33b0-fc4f-4bc4-962f-90f63547c3a1 # Openinghours
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: 50
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: cards
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

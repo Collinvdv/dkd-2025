@@ -1,0 +1,69 @@
+color: null
+fieldLayouts:
+  6829954f-712a-4619-b661-e99ec9546552:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-01-10T13:46:14+00:00'
+            elementCondition: null
+            fieldUid: fa96ef04-de26-4eaf-82db-302460849f80 # Title
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 00890348-2de0-45f2-9b4e-5726aa8022be
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-01-10T13:46:14+00:00'
+            elementCondition: null
+            fieldUid: f8097071-b43d-4db1-868b-11799910e0bf # Content
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ddaa7314-2e4d-4777-a269-168814a83527
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-01-10T13:46:14+00:00'
+            elementCondition: null
+            fieldUid: 67fc1874-b3bb-47cc-b963-f87ade348930 # Image
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2c6d4ad1-3509-4879-bf29-11c54be0fbc3
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: e5ca1c66-f333-47ad-a65b-74a5b32997e0
+        userCondition: null
+handle: eventItem
+hasTitleField: false
+icon: null
+name: 'Event item'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: '{mxTitle}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

@@ -1,0 +1,45 @@
+{# ========================================================================== #}
+{# Variables #}
+{# ========================================================================== #}
+{% set title = title ?? "" %}
+{% set content = content ?? "" %}
+{% set picture = picture ?? "" %}
+
+{# ========================================================================== #}
+{# Component #}
+{# ========================================================================== #}
+	<div class="l-grid__col:12/12 l-grid__col:6/12@at:viewport-7 l-grid__col:7/12@at:viewport-9">
+		<div class="c-split__image">
+			{% if title %}
+				<header class="l-section__header u-display:none@at:viewport-7">
+					<h3 class="c-split__title c-split__title--right">
+						{{ title | raw }}
+					</h3>
+				</header>
+			{% endif %}
+
+			{# picture #}
+			{% if picture %}
+				<img src="{{ picture }}">
+			{% endif %}
+		</div>
+	</div>
+
+	<div class="l-grid__col:12/12 l-grid__col:6/12@at:viewport-7 l-grid__col:5/12@at:viewport-9  c-split__content c-split__content--left">
+		{% if title %}
+			<header class="l-section__header u-display:none@to:viewport-7">
+				<h3 class="c-split__title c-split__title--right">
+					{{ title | raw }}
+				</h3>
+			</header>
+		{% endif %}
+
+		{% if content %}
+			<div class="l-section__content s-wysiwyg-default">
+				<p>
+					{{ content | raw }}
+				</p>
+			</div>
+		{% endif %}
+	</div>
+

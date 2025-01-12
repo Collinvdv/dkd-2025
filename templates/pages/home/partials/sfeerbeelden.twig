@@ -1,0 +1,57 @@
+{# ========================================================================== #}
+{# :: Variables #}
+{# ========================================================================== #}
+
+
+{# ========================================================================== #}
+{# :: Component #}
+{# ========================================================================== #}
+<section class="l-section l-section--light" id="sfeerbeelden">
+	<div class="l-container:10/12 l-container--with-default-spacing">
+		<div class="l-section__header l-section__header--center">
+			<h2>
+				{{ entry.homeSfeerbeeldTitle }}
+			</h2>
+		</div>
+
+		<div class="l-section__content">
+			<ul class="l-grid l-grid--with-default-spacing">
+				{% if entry.homeSfeerbeeldAssets[0] is defined  %}
+					<li class="l-grid__col:12/12 l-grid__col:6/12@at:viewport-4 l-grid__col:8/12@at:viewport-7 c-gallery__item" style="background-image: url('{{entry.homeSfeerbeeldAssets[0].getUrl()}}')">
+					</li>
+				{% endif %}
+
+				{% if entry.homeSfeerbeeldAssets[1] is defined  %}
+					<li class="l-grid__col:12/12 l-grid__col:6/12@at:viewport-4 l-grid__col:4/12@at:viewport-7 c-gallery__item" style="background-image: url('{{entry.homeSfeerbeeldAssets[1].getUrl()}}')">
+					</li>
+				{% endif %}
+
+				{% if entry.homeSfeerbeeldAssets[2] is defined  %}
+					<li class="l-grid__col:12/12 l-grid__col:6/12@at:viewport-4 l-grid__col:4/12@at:viewport-7 c-gallery__item" style="background-image: url('{{entry.homeSfeerbeeldAssets[2].getUrl()}}')">
+					</li>
+				{% endif %}
+
+				{% if entry.homeSfeerbeeldAssets[3] is defined %}
+					<li class="l-grid__col:12/12 l-grid__col:6/12@at:viewport-4 l-grid__col:4/12@at:viewport-7 c-gallery__item" style="background-image: url('{{entry.homeSfeerbeeldAssets[3].getUrl()}}')">
+					</li>
+				{% endif %}
+
+				{% if entry.homeSfeerbeeldAssets[4] is defined  %}
+					<li class="l-grid__col:12/12 l-grid__col:6/12@at:viewport-4 l-grid__col:4/12@at:viewport-7 c-gallery__item" style="background-image: url('{{entry.homeSfeerbeeldAssets[4].getUrl()}}')">
+					</li>
+				{% endif %}
+
+				{% if entry.homeSfeerbeeldAssets[5] is defined  %}
+					<li class="l-grid__col:12/12 l-grid__col:6/12@at:viewport-4 l-grid__col:3/12@at:viewport-7 c-gallery__item" style="background-image: url('{{entry.homeSfeerbeeldAssets[5].getUrl()}}')">
+					</li>
+				{% endif %}
+
+				{% if entry.homeSfeerbeeldAssets[6] is defined %}
+					<li class="l-grid__col:12/12 l-grid__col:6/12@at:viewport-4 l-grid__col:9/12@at:viewport-7 c-gallery__item" style="background-image: url('{{entry.homeSfeerbeeldAssets[6].getUrl()}}')">
+					</li>
+				{% endif %}
+			</ul>
+		</div>
+
+	</div>
+</section>

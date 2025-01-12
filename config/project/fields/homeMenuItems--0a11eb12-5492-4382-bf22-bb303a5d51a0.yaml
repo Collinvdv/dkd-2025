@@ -1,0 +1,21 @@
+columnSuffix: null
+handle: homeMenuItems
+instructions: null
+name: 'Menu items'
+searchable: false
+settings:
+  createButtonLabel: null
+  defaultIndexViewMode: cards
+  entryTypes:
+    - 79ae81ba-d8b9-4900-8609-300008df7c00 # Menu item
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: 50
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: cards
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

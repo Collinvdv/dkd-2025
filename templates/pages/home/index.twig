@@ -1,0 +1,34 @@
+{# ========================================================================== #}
+{# Inheritance #}
+{# ========================================================================== #}
+{% extends "_base/layout" %}
+
+{# ========================================================================== #}
+{# :: Variables #}
+{# ========================================================================== #}
+
+{# ========================================================================== #}
+{# Content #}
+{# ========================================================================== #}
+{% block content %}
+		{# Hero #}
+		{% include "pages/home/partials/hero" %}
+
+		{# Intro #}
+		{% include "pages/home/partials/intro" %}
+
+		{# Sfeerbeelden #}
+		{% include "pages/home/partials/sfeerbeelden" %}
+
+		{# Menu #}
+		{% include "pages/home/partials/menu" %}
+
+		{# Evenementen #}
+		{% include "pages/home/partials/evenementen" %}
+
+		{# Social #}
+		{% include "pages/home/partials/social" %}
+
+		{# Contact #}
+		{% include "pages/home/partials/contact" %}
+{% endblock %}

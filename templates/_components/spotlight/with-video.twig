@@ -1,0 +1,26 @@
+{# ========================================================================== #}
+{# Variables #}
+{# ========================================================================== #}
+{% set classes = classes ?? "" %}
+{% set title = title ?? "" %}
+{% set content = content ?? "" %}
+{% set videoId = videoId ?? "" %}
+{% set layout = layout ?? "" %}
+{% set hasShadow = hasShadow ?? false %}
+
+{% set video %}
+	{# TODO: include video component with videoId #}
+{% endset %}
+
+{# ========================================================================== #}
+{# Component #}
+{# ========================================================================== #}
+{# Layout #}
+{{ classes }}
+{{ layout }}
+{{ hasShadow }}
+
+{# Content #}
+{{ title }}
+{{ content }}
+{{ videoId }}

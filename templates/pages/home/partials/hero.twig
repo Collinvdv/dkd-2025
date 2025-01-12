@@ -1,0 +1,57 @@
+{# ========================================================================== #}
+{# :: Variables #}
+{# ========================================================================== #}
+{% set headerImage = entry.homeHeaderAset[0].url ?? "/assets/images/background.jpg" %}
+
+{# ========================================================================== #}
+{# :: Component #}
+{# ========================================================================== #}
+<div class="l-section c-hero" style="background-image: url('{{headerImage}}')" id="hero">
+	<div class="l-container:12/12 l-container--with-default-spacing">
+		<div class="l-grid">
+			<div class="l-grid__col:3/12 l-grid__col:5/12@at:viewport-7">
+				<ul class="c-hero__nav">
+					<li>
+						<a class="c-hero__link " href="#intro">
+							<span class="c-hero__link-text">
+								intro
+							</span>
+						</a>
+					</li>
+
+					<li>
+						<a class="c-hero__link c-hero__link--no-margin" href="#sfeerbeelden">
+							<span class="c-hero__link-text">
+								sfeerbeelden
+							</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="l-grid__col:6/12 l-grid__col:2/12@at:viewport-7">
+				<img src="/assets/images/logo.png">
+			</div>
+
+			<div class="l-grid__col:3/12 l-grid__col:5/12@at:viewport-7">
+				<ul class="c-hero__nav">
+					<li>
+						<a class="c-hero__link" href="#menu">
+							<span class="c-hero__link-text">
+								menu
+							</span>
+						</a>
+					</li>
+
+					<li>
+						<a class="c-hero__link c-hero__link--no-margin" href="#contact">
+							<span class="c-hero__link-text">
+								contact
+							</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,27 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - 4022e28a-f960-496a-9122-b9028e7b71a2 # Home page
+handle: homePage
+maxAuthors: 1
+name: Home
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  41bbb680-9ece-40db-9dd6-9be9452ef0bc: # dkd
+    enabledByDefault: true
+    hasUrls: true
+    template: pages/home/index.twig
+    uriFormat: __home__
+type: single

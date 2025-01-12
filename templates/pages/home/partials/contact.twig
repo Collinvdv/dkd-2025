@@ -1,0 +1,69 @@
+{# ========================================================================== #}
+{# :: Variables #}
+{# ========================================================================== #}
+
+
+{# ========================================================================== #}
+{# :: Component #}
+{# ========================================================================== #}
+<section class="l-section l-section--light" id="contact">
+	<div class="l-container:12/12 l-container--with-default-spacing">
+		<div class="l-section__header">
+			<h2>
+				Contact
+			</h2>
+		</div>
+
+		<ul class="l-grid l-grid--with-default-spacing">
+			<li class="l-grid__col:12/12 l-grid__col:6/12@at:viewport-7">
+				<div class="mapouter">
+					<div class="gmap_canvas">
+						<iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Lepelstraat%2010%2C%20mazenzele&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.emojilib.com"></a>
+					</div>
+				</div>
+			</li>
+
+			<li class="l-grid__col:12/12 l-grid__col:6/12@at:viewport-7 c-form">
+				{% if craft.app.session.hasFlash('notice') %}
+					<h4>
+						Wij hebben jouw bericht ontvangen, we contacteren je zo snel mogelijk.
+					</h4>
+				{% else %}
+					<form method="post" action="" accept-charset="UTF-8">
+						{{ csrfInput() }}
+						<input type="hidden" name="action" value="contact-form/send">
+						{{ redirectInput('') }}
+
+						<ul class="l-grid l-grid--with-default-spacing">
+							<li class="l-grid__col:12/12">
+								<h3><label for="from-name">Naam</label></h3>
+								<input id="from-name" type="text" name="fromName" value="" required>
+							</li>
+
+							<li class="l-grid__col:12/12 l-grid__col:6/12@at:viewport-7">
+								<h3><label for="from-email">E-mail</label></h3>
+								<input id="from-email" type="email" name="fromEmail" value="" required>
+							</li>
+
+							<li class="l-grid__col:12/12 l-grid__col:6/12@at:viewport-7">
+								<h3><label for="phone">Telefoon</label></h3>
+								<input id="phone" type="text" name="message[Phone]" value="">
+							</li>
+
+							<li class="l-grid__col:12/12">
+								<h3><label for="message">Bericht</label></h3>
+								<textarea rows="10" cols="40" id="message" name="message[Body]" required></textarea>
+							</li>
+						</ul>
+
+						<button type="submit" value="Send">
+							Verstuur jouw bericht
+						</button>
+					</form>
+				{% endif %}
+
+
+			</li>
+		</ul>
+	</div>
+</section>

@@ -1,0 +1,22 @@
+{# ========================================================================== #}
+{# :: Variables #}
+{# ========================================================================== #}
+{% set title = cta.commonTitle ?? NULL %}
+{% set description = cta.commonDescription ?? NULL %}
+{% set primaryLink = cta.commonLink ?? NULL %}
+{% set secondaryLink = cta.commonSecondaryLink ?? NULL %}
+
+{# ========================================================================== #}
+{# :: Component #}
+{# ========================================================================== #}
+{{ title }}
+{{ description }}
+
+{# Primary link label and url #}
+{{ primaryLink.getText() }}
+{{ primaryLink.getUrl() }}
+
+{# Secondary link label and url #}
+{{ secondaryLink.getText() }}
+{{ secondaryLink.getUrl() }}
+

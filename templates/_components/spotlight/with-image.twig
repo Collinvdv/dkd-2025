@@ -1,0 +1,38 @@
+{# ========================================================================== #}
+{# Variables #}
+{# ========================================================================== #}
+{% set classes = classes ?? "" %}
+{% set title = title ?? "" %}
+{% set content = content ?? "" %}
+{% set image = image[0] ?? "" %}
+{% set layout = layout ?? "" %}
+{% set hasShadow = hasShadow ?? false %}
+
+{% set transform = {
+        mode: "fit",
+        width: 800,
+        height: 800,
+        quality: 100,
+        position: "center-center",
+    }
+%}
+
+{# ========================================================================== #}
+{# Component #}
+{# ========================================================================== #}
+{# Layout #}
+{{ classes }}
+{{ layout }}
+{{ hasShadow }}
+
+{# Content #}
+{{ title }}
+{{ content }}
+
+<img
+	src="{{image.getUrl(transform)}}"
+	srcset="{{ image.getUrl({ width: 800, height: 600 }) }} 800w,
+			{{ image.getUrl({ width: 600, height: 450 }) }} 600w"
+	alt="{{image.title}}"
+	title="{{image.title}}"
+>
