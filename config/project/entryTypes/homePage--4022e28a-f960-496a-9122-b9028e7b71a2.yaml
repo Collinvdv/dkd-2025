@@ -199,6 +199,38 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 100
+          -
+            dateAdded: '2025-01-13T07:11:17+00:00'
+            elementCondition: null
+            fieldUid: 33945b56-5473-4c1f-b0a0-b3b2088706be # Menu download text
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f954f7c7-6868-49d1-a301-a75d56b608f8
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-01-13T07:11:17+00:00'
+            elementCondition: null
+            fieldUid: 1500cb89-e575-4671-bbec-e3dc20606763 # Menu pdf
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6dddbf5e-804e-4542-8d7a-e6032fb70892
+            userCondition: null
+            warning: null
+            width: 100
         name: Menu
         uid: fb914419-20df-47e7-8242-2a9a8a7a691e
         userCondition: null

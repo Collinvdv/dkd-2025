@@ -1,16 +1,23 @@
-dateModified: 1736517231
+dateModified: 1736752384
 email:
   fromEmail: collinvdv@gmail.com
   fromName: dkd
   transportType: craft\mail\transportadapters\Sendmail
 fs:
+  assets:
+    hasUrls: true
+    name: Assets
+    settings:
+      path: uploads
+    type: craft\fs\Local
+    url: uploads
   images:
     hasUrls: true
     name: Images
     settings:
-      path: $base_url
+      path: uploads
     type: craft\fs\Local
-    url: $base_url
+    url: uploads
 meta:
   __names__:
     0a11eb12-5492-4382-bf22-bb303a5d51a0: 'Menu items' # Menu items
@@ -28,8 +35,10 @@ meta:
     0357e835-5ac9-4cbb-b0e9-7fb5c4363b12: 'Home corona text' # Home corona text
     427f1cb2-32db-461f-95e3-ee2ad3799fae: Simple # Simple
     599c42ed-9244-456b-96fb-80a4e5289d0f: 'Intro text' # Intro text
+    1500cb89-e575-4671-bbec-e3dc20606763: 'Menu pdf' # Menu pdf
     2104dbbe-d227-4514-a360-acb510eaa8c5: Sfeerbeelden # Sfeerbeelden
     4022e28a-f960-496a-9122-b9028e7b71a2: 'Home page' # Home page
+    33945b56-5473-4c1f-b0a0-b3b2088706be: 'Menu download text' # Menu download text
     78593953-7eae-4392-adb2-f5f017cdeb78: 'Events text' # Events text
     a72ef1f9-47e8-4f22-90ae-e6cf20d67a83: dkd # dkd
     a1926707-8693-4fb1-b2e3-eb86729d32af: 'Sfeerbeelden titel' # Sfeerbeelden titel
@@ -37,6 +46,7 @@ meta:
     b79a8a96-1372-47ef-a8ad-5d4edfddac60: 'Menu title' # Menu title
     bb7a9de4-c19a-41bb-9798-4039fc73dc8b: Home # Home
     cb8e33b0-fc4f-4bc4-962f-90f63547c3a1: Openinghours # Openinghours
+    d4bcf17e-ab08-43dd-adc1-1cf88ca1f3f0: assets # assets
     f8097071-b43d-4db1-868b-11799910e0bf: Content # Content
     fa96ef04-de26-4eaf-82db-302460849f80: Title # Title
 plugins:
