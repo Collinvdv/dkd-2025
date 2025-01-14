@@ -1,4 +1,4 @@
-dateModified: 1736752384
+dateModified: 1736865609
 email:
   fromEmail: collinvdv@gmail.com
   fromName: dkd
@@ -54,6 +54,17 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 3.0.0.0
+  contact-form:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+    settings:
+      allowAttachments: ''
+      allowedMessageFields: null
+      prependSender: 'On behalf of'
+      prependSubject: 'New message from dkd'
+      successFlashMessage: 'Your message has been sent.'
+      toEmail: collinvdv@gmail.com
   field-manager:
     edition: standard
     enabled: true
